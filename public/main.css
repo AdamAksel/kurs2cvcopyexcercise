@@ -1,0 +1,121 @@
+@font-face {
+    font-family: 'aleobold';
+    src: url('./modules/font/aleo-bold-webfont.woff2') format('woff2'),
+         url('./modules/font/aleo-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'aleolight';
+    src: url('./modules/font/aleo-light-webfont.woff2') format('woff2'),
+         url('./modules/font/aleo-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'aleoregular';
+    src: url('./modules/font/aleo-regular-webfont.woff2') format('woff2'),
+         url('./modules/font/aleo-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+*{
+    outline: 1px solid black;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+#container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 900px;
+    min-width: 98vw;
+}
+
+#a4size{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 595px;
+    height: 842px;
+}
+
+#left{
+    background-color: #E2D8CE;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 247px;
+    height: 842px;
+    gap: 5px;
+}
+
+#leftimg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 255px;
+    width: 247px;
+}
+
+.lefttextdiv{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    width: 200px;
+    height: 164px;
+
+}
+.lefttextdivhead{
+    background-color:#373741 ;
+    color: #D1D0CE;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 200px;
+    height: 30px;
+}
+
+.lefttextdivh1{
+    font-family: 'aleoregular';
+    font-size: 10px;
+    margin: 10px;
+}
+
+#right{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 348px;
+}
+
+#righttop{
+    background-color:#373741 ;
+    display: flex ;
+    height: 186px;
+    width: 348px;
+}
+
+#rightbot{
+    background-color: white;
+    display: flex;
+    width: 348px;
+    height: 656px;
+}
